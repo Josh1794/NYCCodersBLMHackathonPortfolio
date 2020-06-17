@@ -52,6 +52,9 @@ abbr[title] {
   text-decoration: underline;
   text-decoration: underline dotted;
 }
+#gatsby-focus-wrapper {
+  background-color: rgb(50, 50, 50);
+}
 b,
 strong {
   font-weight: inherit;

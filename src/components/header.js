@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Image from "./image"
@@ -22,17 +21,22 @@ const Header = ({ siteTitle }) => (
         justifyContent: "center",
       }}
     >
-      <Image />
-      <h1 style={{ margin: 0, paddingLeft: "20px" }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
+      <a
+        target="_blank"
+        href="https://www.meetup.com/nyc-coders/"
+        rel="noreferrer noopener"
+      >
+        <Image />
+      </a>
+      <h1
+        style={{
+          margin: 0,
+          paddingLeft: "20px",
+          color: `white`,
+          textDecoration: `none`,
+        }}
+      >
+        {siteTitle}
       </h1>
     </div>
   </header>

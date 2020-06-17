@@ -9,7 +9,7 @@ export default function Cards() {
           class="projects"
           href="https://github.com/thunky-monks/graceshopper"
           rel="noreferrer noopener"
-          data-sal="fade"
+          data-sal="slide-up"
           id="splashAnimation"
         >
           <div class="projectSubsection">

@@ -6,7 +6,7 @@ import Cards from "../components/projectCard"
 const IndexPage = () => (
   <Layout className="App">
     <SEO title="Projects" />
-    <Cards />
+    <Cards data-sal="fade" id="splashAnimation" />
   </Layout>
 )
 

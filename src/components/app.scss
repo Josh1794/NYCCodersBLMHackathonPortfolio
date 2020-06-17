@@ -1,3 +1,55 @@
+#splashAnimation {
+  --sal-duration: 3s;
+}
+.portfolioPage {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.portfolioProjects {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.projects {
+  width: 250px;
+  height: 250px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  text-align: center;
+  -webkit-transition: background 0.5s; /* For Safari 3.0 to 6.0 */
+  transition: background 0.5s; /* For modern browsers */
+}
+.projects:hover {
+  background-color: #f7ef2a;
+  color: rgb(50, 50, 50);
+  box-shadow: 5px 5px 10px black;
+}
+
+.projectSubsection {
+  margin-top: 10px;
+}
+
+#gatsby-focus-wrapper {
+  background-color: rgb(50, 50, 50);
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -52,9 +104,7 @@ abbr[title] {
   text-decoration: underline;
   text-decoration: underline dotted;
 }
-#gatsby-focus-wrapper {
-  background-color: rgb(50, 50, 50);
-}
+
 b,
 strong {
   font-weight: inherit;

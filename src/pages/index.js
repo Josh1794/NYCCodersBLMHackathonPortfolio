@@ -5,7 +5,7 @@ import Cards from "../components/projectCard"
 
 const IndexPage = () => (
   <Layout className="App">
-    <SEO title="Home" />
+    <SEO title="Projects" />
     <Cards />
   </Layout>
 )

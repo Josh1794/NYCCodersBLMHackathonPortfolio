@@ -1,154 +1,98 @@
 import React from "react"
 import "../app.scss"
+import Placeholder from "./placeholder"
 
 export default function Cards() {
   return (
     <div className="portfolioPage">
       <div className="portfolioProjects">
-        <a
-          target="_blank"
-          className="projects"
-          href="https://github.com/thunky-monks/graceshopper"
-          rel="noreferrer noopener"
-          data-sal="fade"
-          id="salAnimation"
-        >
-          <div className="projectSubsection">
-            <h6 className="portfolioSubTitle">E-Commerce-Commerce</h6>
+        <div className="projects" data-sal="fade" id="salAnimation">
+          <div className="cardContent">
+            <div className="projectPicture">
+              <Placeholder />
+            </div>
+            <div className="textArea">
+              <h5>Project Name</h5>
+              <p>Project Description goes here</p>
+              <div className="linkArea">
+                <a
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="githubLink"
+                  href="https://github.com/thunky-monks/graceshopper"
+                >
+                  <h6>Github</h6>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="deployLink"
+                  href="https://github.com/thunky-monks/graceshopper"
+                >
+                  <h6>Deployed Link</h6>
+                </a>
+              </div>
+            </div>
           </div>
-        </a>
-        <a
-          target="_blank"
-          className="projects"
-          href="https://github.com/Josh1794/Sensor-app"
-          rel="noreferrer noopener"
-          data-sal="fade"
-          id="salAnimation"
-        >
-          <div className="projectSubsection">
-            <h6 className="portfolioSubTitle">Sensors App</h6>
+        </div>
+        <div className="projects" data-sal="fade" id="salAnimation">
+          <div className="cardContent">
+            <div className="projectPicture">
+              <Placeholder />
+            </div>
+            <div className="textArea">
+              <h5>Project Name</h5>
+              <p>Project Description goes here</p>
+              <div className="linkArea">
+                <a
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="githubLink"
+                  href="https://github.com/thunky-monks/graceshopper"
+                >
+                  <h6>Github</h6>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="deployLink"
+                  href="https://github.com/thunky-monks/graceshopper"
+                >
+                  <h6>Deployed Link</h6>
+                </a>
+              </div>
+            </div>
           </div>
-        </a>
-        <a
-          target="_blank"
-          className="projects"
-          href="https://github.com/Thunkaroos/YellowBrickRoad"
-          rel="noreferrer noopener"
-          data-sal="fade"
-          id="salAnimation"
-        >
-          <div className="projectSubsection">
-            <h6 className="portfolioSubTitle">Yellow Brick Road</h6>
+        </div>
+        <div className="projects" data-sal="fade" id="salAnimation">
+          <div className="cardContent">
+            <div className="projectPicture">
+              <Placeholder />
+            </div>
+            <div className="textArea">
+              <h5>Project Name</h5>
+              <p>Project Description goes here</p>
+              <div className="linkArea">
+                <a
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="githubLink"
+                  href="https://github.com/thunky-monks/graceshopper"
+                >
+                  <h6>Github</h6>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="deployLink"
+                  href="https://github.com/thunky-monks/graceshopper"
+                >
+                  <h6>Deployed Link</h6>
+                </a>
+              </div>
+            </div>
           </div>
-        </a>
-        <a
-          target="_blank"
-          className="projects"
-          href="https://github.com/Josh1794/myWeatherApp"
-          rel="noreferrer noopener"
-          data-sal="fade"
-          id="salAnimation"
-        >
-          <div className="projectSubsection">
-            <h6 className="portfolioSubTitle">Weather App</h6>
-          </div>
-        </a>
-        <a
-          target="_blank"
-          className="projects"
-          href="https://github.com/Josh1794/recipeBook"
-          rel="noreferrer noopener"
-          data-sal="fade"
-          id="salAnimation"
-        >
-          <div className="projectSubsection">
-            <h6 className="portfolioSubTitle">Recipe Book</h6>
-          </div>
-        </a>
-        <a
-          target="_blank"
-          className="projects"
-          href="https://github.com/Team-5-Data-Dashboard/Data-Dashboard"
-          rel="noreferrer noopener"
-          data-sal="fade"
-          id="salAnimation"
-        >
-          <div className="projectSubsection">
-            <h6 className="portfolioSubTitle">BLM Data Dashboard</h6>
-          </div>
-        </a>
-        <a
-          target="_blank"
-          className="projects"
-          href="https://github.com/thunky-monks/graceshopper"
-          rel="noreferrer noopener"
-          data-sal="fade"
-          id="salAnimation"
-        >
-          <div className="projectSubsection">
-            <h6 className="portfolioSubTitle">E-Commerce-Commerce</h6>
-          </div>
-        </a>
-        <a
-          target="_blank"
-          className="projects"
-          href="https://github.com/Josh1794/Sensor-app"
-          rel="noreferrer noopener"
-          data-sal="fade"
-          id="salAnimation"
-        >
-          <div className="projectSubsection">
-            <h6 className="portfolioSubTitle">Sensors App</h6>
-          </div>
-        </a>
-        <a
-          target="_blank"
-          className="projects"
-          href="https://github.com/Thunkaroos/YellowBrickRoad"
-          rel="noreferrer noopener"
-          data-sal="fade"
-          id="salAnimation"
-        >
-          <div className="projectSubsection">
-            <h6 className="portfolioSubTitle">Yellow Brick Road</h6>
-          </div>
-        </a>
-        <a
-          target="_blank"
-          className="projects"
-          href="https://github.com/Thunkaroos/YellowBrickRoad"
-          rel="noreferrer noopener"
-          data-sal="fade"
-          id="salAnimation"
-        >
-          <div className="projectSubsection">
-            <h6 className="portfolioSubTitle">Yellow Brick Road</h6>
-          </div>
-        </a>
-        <a
-          target="_blank"
-          className="projects"
-          href="https://github.com/Thunkaroos/YellowBrickRoad"
-          rel="noreferrer noopener"
-          data-sal="fade"
-          id="salAnimation"
-        >
-          <div className="projectSubsection">
-            <h6 className="portfolioSubTitle">Yellow Brick Road</h6>
-          </div>
-        </a>
-        <a
-          target="_blank"
-          className="projects"
-          href="https://github.com/Thunkaroos/YellowBrickRoad"
-          rel="noreferrer noopener"
-          data-sal="fade"
-          id="salAnimation"
-        >
-          <div className="projectSubsection">
-            <h6 className="portfolioSubTitle">Yellow Brick Road</h6>
-          </div>
-        </a>
+        </div>
       </div>
     </div>
   )

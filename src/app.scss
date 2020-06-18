@@ -2,6 +2,9 @@
 
 $mainFont: "Poppins", sans-serif;
 $secondaryFont: "sans-serif";
+$fontColor: rgb(50, 50, 50);
+$hoverTextColor: orange;
+
 .App {
   background-color: rgb(50, 50, 50);
   font-family: $mainFont;
@@ -12,6 +15,7 @@ $secondaryFont: "sans-serif";
   border-bottom-color: white;
   border-bottom-style: solid;
   border-bottom-width: 1px;
+
   div {
     max-width: 900px;
     padding: 0.25% 0.25%;
@@ -20,6 +24,7 @@ $secondaryFont: "sans-serif";
     align-items: center;
     justify-content: center;
   }
+
   h1 {
     margin: 0;
     font-size: 4vmin;
@@ -34,8 +39,8 @@ $secondaryFont: "sans-serif";
   padding-top: 5%;
   padding-bottom: 5%;
   margin: 0 auto;
-  max-width: 70vw;
-  min-height: 80vh;
+  max-width: 80vw;
+  min-height: 90.25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,39 +58,89 @@ $secondaryFont: "sans-serif";
 
 .projects {
   text-decoration: none;
-  color: rgb(50, 50, 50);
+  color: $fontColor;
   text-align: center;
-  width: 250px;
-  height: 250px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  width: 350px;
+  height: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 0.25em;
+
+  // &:hover {
+  //   background-color: #f7ef2a;
+  box-shadow: 10px 10px 20px 5px black;
+  // }
+}
+
+.cardContent {
+  height: 100%;
+  width: 100%;
+}
+
+.projectPicture {
+  height: 25%;
+}
+
+.textArea {
+  height: 50%;
+  width: 100%;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 0.25em;
-  // -webkit-transition: background-color 0.5s; /* For Safari 3.0 to 6.0 */
-  // transition: background-color 1.5s; /* For modern browsers */
-  h6 {
-    font-family: $mainFont;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  h5 {
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-bottom: 0;
   }
+
+  p {
+    height: 140px;
+    padding-left: 5px;
+    margin-bottom: 0;
+  }
+
+  h6 {
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-bottom: 0;
+  }
+}
+
+.linkArea {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.githubLink {
+  text-decoration: none;
+  color: $fontColor;
+  padding-right: 10px;
+
   &:hover {
-    background-color: #f7ef2a;
-    box-shadow: 10px 10px 20px black;
+    color: $hoverTextColor;
+  }
+}
+
+.deployLink {
+  text-decoration: none;
+  color: $fontColor;
+  padding-left: 10px;
+
+  &:hover {
+    color: $hoverTextColor;
   }
 }
 
 #salAnimation {
   --sal-duration: 3s;
-}
-
-.projectSubsection {
-  margin-top: 10px;
 }
 
 #gatsby-focus-wrapper {
@@ -387,12 +442,11 @@ h5 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   color: inherit;
   font-family: $mainFont;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 0.85028rem;
+  font-size: 0.9rem;
   line-height: 1.1;
 }
 h6 {
@@ -403,12 +457,12 @@ h6 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  // margin-bottom: 1.45rem;
   color: inherit;
   font-family: $mainFont;
-  font-weight: bold;
+  // font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 0.78405rem;
+  font-size: 0.8rem;
   line-height: 1.1;
 }
 hgroup {
@@ -473,7 +527,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  font-size: 0.8rem;
 }
 figure {
   margin-left: 0;

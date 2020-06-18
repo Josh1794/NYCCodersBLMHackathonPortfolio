@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
-        threshold: 0.5, // Percentage of an element's area that needs to be visible to launch animation
+        threshold: 1, // Percentage of an element's area that needs to be visible to launch animation
         once: true, // Defines if animation needs to be launched once
       },
     },
@@ -31,7 +31,7 @@ module.exports = {
         name: `nyc-coders-blm-hackathon`,
         short_name: `portfolio`,
         start_url: `/`,
-        background_color: `#0000000`,
+        background_color: `#000000`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
